@@ -19,7 +19,8 @@ public class PLAYER : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        xinput = Input.GetAxis("Horizontal")*speed*;
-        zinput = Input.GetAxis("Vertical");
+        xinput = Input.GetAxis("Horizontal")*speed*Time.deltaTime;
+        zinput = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+        Transform.Translate(xvalue, 0, zvalue);
     }
 }
