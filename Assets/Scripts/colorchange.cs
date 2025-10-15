@@ -13,6 +13,7 @@ public class colorchange : MonoBehaviour
         color = mr.material.color;
     }
 
+
     // Update is called once per frame
     private void OnCollisionEnter(Collision collision)
     {
