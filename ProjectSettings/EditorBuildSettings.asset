@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Assignment_2.unity
+    guid: cf64f2b219e9d1e47a42b0a13596fdff
+  - enabled: 1
+    path: Assets/Scenes/Bowling.unity
+    guid: a68a13a3880ee1e478371845aaae6445
   m_configObjects: {}

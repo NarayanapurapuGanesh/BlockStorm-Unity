@@ -19,7 +19,7 @@ public class colorchange : MonoBehaviour
     {
         if(collision.gameObject.tag =="Player")
         {
-            mr.material.color = Color.red;
+            mr.material.color = Color.blue;
         }
     }
     private void OnCollisionExit(Collision collision)

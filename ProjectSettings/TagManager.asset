@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - collisiontag
+  - coin
+  - walls
+  - end
   layers:
   - Default
   - TransparentFX
